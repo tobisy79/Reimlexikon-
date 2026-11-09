@@ -4,17 +4,18 @@
 
 | Datei | Zweck |
 |---|---|
-| `reimfinder.html` | Die komplette Seite (HTML, CSS, JavaScript in einer Datei, keine externen Abhängigkeiten). Enthält ein Demo-Lexikon mit rund 680 Wörtern. |
-| `lexikon-de.json.gz` | Fertiges großes Lexikon: 703.977 Wörter mit normalisierter IPA, Reimschlüsseln und Häufigkeiten (8 MB). Gebaut aus ipa-dict/german-ipa-dict (Wiktionary, CC BY-SA) und FrequencyWords (CC BY-SA 4.0). |
+| `reimfinder.html` | Die komplette Seite (HTML, CSS, JavaScript in einer Datei, keine externen Abhängigkeiten, rund 14 MB). Enthält das große Lexikon, Orte, Vornamen, Redewendungen und Synonyme; läuft damit auch offline und als lokal geöffnete Datei am Handy. |
+| `lexikon-de.json.gz` | Das große Lexikon als eigene Datei (steckt auch schon in der HTML): 715.777 Wörter, ergänzt um Wiktionary-Aussprachen aus WikiPron. Ursprünglich 703.977 Wörter mit normalisierter IPA, Reimschlüsseln und Häufigkeiten (8 MB). Gebaut aus ipa-dict/german-ipa-dict (Wiktionary, CC BY-SA) und FrequencyWords (CC BY-SA 4.0). |
 | `build_lexikon.mjs` | Vorverarbeitungs-Skript (Node.js ≥ 18, keine Pakete), falls du das Lexikon selbst neu bauen willst, z. B. mit dem kaikki.org-Auszug. |
 
 ## Kurzanleitung
 
 1. `reimfinder.html` per Doppelklick im Browser öffnen (Chrome, Edge, Firefox, Safari). Die Seite läuft sofort mit dem Demo-Lexikon.
-2. „Lexikon laden“ aufklappen und `lexikon-de.json.gz` hineinziehen oder auswählen. Das Laden dauert einige Sekunden; danach ist es im Browser (IndexedDB) gespeichert und beim nächsten Öffnen sofort da.
+2. Das große Lexikon lädt beim Öffnen automatisch aus der Datei selbst (am PC rund 5 Sekunden, am Handy länger; bis dahin sucht die Seite mit dem Demo-Lexikon). Eine eigene Lexikon-Datei kannst du weiter unter „Lexikon laden“ hineinziehen; sie hat dann Vorrang.
 3. Wort eingeben, Enter drücken. Standard ist „alle“ Silben im Modus „Silbe für Silbe“: Jede Silbe des Suchworts wird mit der entsprechenden Silbe des Treffers verglichen (vor allem der Vokal, die Konsonanten zählen gewichtet mit). *Sonnenbrand* findet so *Kontostand*, nicht nur Wörter auf *-brand*. Silbenzahl, Reimmodus (rein, Assonanz, unrein, Silbe für Silbe), Bezug und Filter stellst du darunter ein.
    Die Gruppe „Wortkombinationen“ zeigt Reime aus mehreren Wörtern, z. B. *Herzinfarkt* → *Schmerz ist stark* (abschaltbar unter „Wortkombinationen zeigen“).
    Die Gruppe „Berühmte Namen“ zeigt Personen und Bands, deren Name sich reimt, z. B. *Kaiser* → *Rio Reiser*, *Grönemeyer*, *Mittermeier*. Rund 4.100 Namen: die Bekanntesten aus Deutschland, Österreich und der Schweiz und weltweit bekannte Persönlichkeiten aus dem Datensatz Pantheon 2.0 (pantheon.world, Bekanntheit nach Wikipedia-Abrufen) sowie eine handverlesene Liste (Deutschrap, Pop, Schlager, Sport, Fernsehen, Internet; Datei `namen_kuratiert.txt`). Bekanntere Namen stehen weiter oben. Die Aussprache stammt aus Aussprache-Lexika (Deutsch, Englisch, Französisch, Spanisch, Niederländisch) oder ist geschätzt; bei fremdsprachigen Namen kann sie danebenliegen. Abschaltbar mit „Berühmte Namen“.
+   Weitere Gruppen aus offenen Datenbanken, jeweils abschaltbar: „Redewendungen“ (rund 13.000 feste Wendungen aus OpenThesaurus, z. B. *Kopf* → *auf dem Dorf*, *voll Stoff*), „Vornamen“ (rund 2.000 Vornamen aus der Statistik der Stadt Köln 2010–2018) und „Orte, Länder, Regionen“ (Städte und Stadtteile ab 5.000 Einwohnern in Deutschland, Österreich und der Schweiz aus GeoNames, dazu Länder, Inseln, Bundesländer, Kieze und bekannte Weltstädte). Über den Treffern steht „Ähnliche Bedeutung“ mit Synonymen aus OpenThesaurus; Tippen sucht Reime auf das Synonym.
    Mit „Eigenen Reim prüfen“ kannst du jedes Wort oder jede Wortgruppe gegen das Suchwort testen, z. B. *wer ist stark* (Score 74, unrein).
 4. Stimmt die erkannte Aussprache nicht, IPA im Feld darunter korrigieren und „Aussprache übernehmen“ klicken.
 5. Optional: „KI-Einstellungen“ aufklappen, Anbieter, Modell und eigenen API-Schlüssel eintragen, dann „KI einbeziehen“ anhaken.
@@ -73,3 +74,5 @@ Die Seite nimmt auch direkt `de.txt` aus ipa-dict oder kleine kaikki-JSONL-Datei
 ## Lizenz der Daten
 
 Die Lautschrift stammt von Wiktionary-Beitragenden (über german-ipa-dict / ipa-dict bzw. kaikki.org) und steht unter CC BY-SA. Die Häufigkeiten stammen aus FrequencyWords (CC BY-SA 4.0). Wer `lexikon-de.json.gz` weitergibt, muss diese Quellen nennen und die Lizenz beibehalten.
+
+Zusätzliche Aussprachen: WikiPron (github.com/CUNY-CL/wikipron), Daten von Wiktionary, CC BY-SA; die Betonung ist bei diesen Wörtern teils automatisch ergänzt. Orte: GeoNames (geonames.org), CC BY 4.0, über das Paket all-the-cities. Vornamen: Stadt Köln, Offene Daten, CC BY 3.0, über das Paket baby-names-cologne. Redewendungen und Synonyme: OpenThesaurus (openthesaurus.de), © Daniel Naber und Mitwirkende, LGPL 2.1, Stand 2015. Die Personen-Liste beruht auf Pantheon 2.0; deren Lizenz ist vor einer breiten Weitergabe noch zu prüfen.
