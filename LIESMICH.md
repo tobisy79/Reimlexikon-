@@ -1,0 +1,74 @@
+# Reimfinder – Anleitung und Grenzen
+
+## Dateien
+
+| Datei | Zweck |
+|---|---|
+| `reimfinder.html` | Die komplette Seite (HTML, CSS, JavaScript in einer Datei, keine externen Abhängigkeiten). Enthält ein Demo-Lexikon mit rund 680 Wörtern. |
+| `lexikon-de.json.gz` | Fertiges großes Lexikon: 703.977 Wörter mit normalisierter IPA, Reimschlüsseln und Häufigkeiten (8 MB). Gebaut aus ipa-dict/german-ipa-dict (Wiktionary, CC BY-SA) und FrequencyWords (CC BY-SA 4.0). |
+| `build_lexikon.mjs` | Vorverarbeitungs-Skript (Node.js ≥ 18, keine Pakete), falls du das Lexikon selbst neu bauen willst, z. B. mit dem kaikki.org-Auszug. |
+
+## Kurzanleitung
+
+1. `reimfinder.html` per Doppelklick im Browser öffnen (Chrome, Edge, Firefox, Safari). Die Seite läuft sofort mit dem Demo-Lexikon.
+2. „Lexikon laden“ aufklappen und `lexikon-de.json.gz` hineinziehen oder auswählen. Das Laden dauert einige Sekunden; danach ist es im Browser (IndexedDB) gespeichert und beim nächsten Öffnen sofort da.
+3. Wort eingeben, Enter drücken. Standard ist „alle“ Silben im Modus „Silbe für Silbe“: Jede Silbe des Suchworts wird mit der entsprechenden Silbe des Treffers verglichen (vor allem der Vokal, die Konsonanten zählen gewichtet mit). *Sonnenbrand* findet so *Kontostand*, nicht nur Wörter auf *-brand*. Silbenzahl, Reimmodus (rein, Assonanz, unrein, Silbe für Silbe), Bezug und Filter stellst du darunter ein.
+   Die Gruppe „Wortkombinationen“ zeigt Reime aus mehreren Wörtern, z. B. *Herzinfarkt* → *Schmerz ist stark* (abschaltbar unter „Wortkombinationen zeigen“).
+   Mit „Eigenen Reim prüfen“ kannst du jedes Wort oder jede Wortgruppe gegen das Suchwort testen, z. B. *wer ist stark* (Score 74, unrein).
+4. Stimmt die erkannte Aussprache nicht, IPA im Feld darunter korrigieren und „Aussprache übernehmen“ klicken.
+5. Optional: „KI-Einstellungen“ aufklappen, Anbieter, Modell und eigenen API-Schlüssel eintragen, dann „KI einbeziehen“ anhaken.
+6. „Selbsttest“ prüft die Beispiele aus der Aufgabenstellung (aktuell 26 von 26 bestanden, darunter Sonnenbrand → Kontostand und Herzinfarkt → „wer ist stark“, mit Demo- und mit großem Lexikon).
+
+## Text-Werkstatt (Rap-Zeilen)
+
+Zweiter Reiter oben auf der Seite.
+
+1. Briefing schreiben oder einsprechen: Das Mikrofon unten rechts im Feld startet die Spracheingabe (Deutsch), ein zweiter Tipp beendet sie. Das gibt es auch bei „Eigene Wünsche“, „Endwörter“ und allen Konzeptfeldern. Es nutzt die Spracherkennung des Browsers (Chrome, Edge, Safari) und braucht Internet. Wird die Seite als lokale Datei geöffnet, sperren manche Handys das Mikrofon; dann hilft das Mikrofon der Handy-Tastatur oder die Seite über eine https-Adresse öffnen. Beispiel: „Eine Aneinanderreihung von Fast-Food-Begriffen, die sich reimen“.
+2. Einstellen: Zeilen (4, 8, 12, 16; eine Zeile = ein Takt im 4/4), Reim auf die letzten 2, 3 oder 4 Silben, Tempo in BPM, Flow (entspannt, normal, Double-Time), Reimschema (Paarreim AABB, Kreuzreim ABAB, umarmend ABBA, Kettenreim, Monoreim), optional Stil, Jugendfrei, Binnenreime und Endwörter.
+   **Stil:** Oben in der Werkstatt wählst du einen der 8 Stile aus der Stilanalyse (z. B. A2 Reimakrobat, A5 Melodic Trap) und optional einen der 50 Künstler als Orientierung. Der Stil setzt die Regler (Reimsilben, Flow, Reimschema, Binnenreime, BPM) und den Silbenrahmen; sein Regelwerk mit Aufbau, Ton und Vokabel-Filter geht in den KI-Prompt, das Künstlerprofil (Reimtechnik, Flow, Sprache, Persona) ebenfalls. Die KI soll nur Technik und Haltung übernehmen, keine echten Zeilen. Regler lassen sich danach frei ändern; wer den Flow von Hand umstellt, ersetzt den Silbenrahmen des Stils. Die Reimprüfung ist bei A2 strenger und bei A5/A6 großzügiger. Ad-libs in Klammern zählen nicht mit.
+3. Die Seite rechnet aus BPM und Flow den Silbenrahmen pro Zeile aus (bei 90 BPM, normal: 10–13 Silben). Über 7 Silben pro Sekunde wird gedeckelt, damit es rappbar bleibt. Bei Trap um 140 BPM besser die halbe Zahl eintragen (Halftime-Gefühl).
+4. Ablauf mit KI in Schritten (beide Häkchen sind standardmäßig an):
+   - **Konzept:** „Konzept mit KI entwerfen“ liefert Kernaussage, Sprecher und Adressat, Bildwelt mit Leitmetapher, Ton, den Bogen über die Zeilen, die Pointe und Reimideen. Alles ist änderbar. „Text nach diesem Konzept schreiben“ startet das Schreiben; jede Zeile soll dem Konzept dienen.
+   - **Handwerk:** Der Schreib-Auftrag enthält feste Regeln (Bilder statt Behauptungen, keine Bildbrüche, gleiche Perspektive und Zeitform, natürliche Wortstellung, starke letzte Zeile, keine Floskeln). Die KI arbeitet dabei mit hohem Denkaufwand; das dauert länger (oft 1–3 Minuten) und kostet etwas mehr.
+   - **Nachbesserung im Zusammenhang:** Reimt eine Zeile nicht, darf die KI das ganze Reimpaar neu fassen, statt eine Zeile anzuflicken.
+   - **Lektorat:** Am Ende liest die KI den ganzen Text wie ein Lektor (Logik, Stimmigkeit, Bildbrüche, Perspektive, Zeitform, Grammatik, Rechtschreibung, Floskeln, Reimzwang, Pointe) und macht begründete Vorschläge. Jeder Vorschlag wird lokal auf Silben und Reim geprüft und lässt sich einzeln übernehmen oder verwerfen. Der Knopf „Lektorat“ startet es jederzeit neu, auch für eingefügte Texte; ohne API-Schlüssel erzeugt er einen Lektorat-Prompt für den Chat.
+   Ohne Konzept-Häkchen schreibt „Text mit KI schreiben“ direkt: Die KI schreibt die Zeilen. Danach prüft die Seite jede Zeile lokal: Silbenzahl nach Aussprache und Reim Silbe für Silbe auf die letzten 2–4 Silben. Zeilen, die nicht passen, schickt sie bis zu zweimal mit lokal gefundenen Reimwörtern zurück an die KI.
+5. Ergebnis (zuerst die Zeilen, darunter Hinweise und Lektorat; nach dem Schreiben springt die Seite zum Text und klappt das Konzept ein, „Anzeigen“ holt es zurück). Alle Textfelder wachsen mit dem Inhalt, auf dem Handy muss man in keinem Feld scrollen. Reimteil gelb markiert, Silbenzahl mit Balken, Reim-Score je Zeile. Zeilen lassen sich bearbeiten (✎), einzeln neu schreiben (↻) oder per Klick auf einen Reimvorschlag umstellen. „Im Takt anzeigen“ spielt ein Metronom mit einem Takt Einzählen und hebt Zeile für Zeile hervor. Kopieren und als .txt speichern gehen auch.
+6. Ohne API-Schlüssel: „Prompt erstellen“ baut aus allen Einstellungen (Briefing, Zeilen, BPM, Silbenrahmen, Reimschema, Reimsilben, Stil, Künstlerprofil, Jugendfrei, Endwörter) einen fertigen Prompt. „Zu Claude“ und „Zu ChatGPT“ öffnen den Chat mit dem Prompt im Eingabefeld; „Zu Gemini“ öffnet Gemini, dort den Prompt einfügen (er liegt nach dem Klick in der Zwischenablage). Die Antwort aus dem Chat kannst du unter „Antwort aus dem Chat hier einfügen“ zurückholen; die Seite prüft dann Silben und Reime wie bei der eingebauten KI.
+7. **Fortschritt und Abbrüche:** Solange die KI arbeitet, zeigt eine Leiste unten im Fenster den Schritt („Schritt 2 von 3: Reime nachbessern“), den Fortschritt in Prozent, ob die KI gerade nachdenkt oder schon schreibt, und die vergangene Zeit. „Abbrechen“ stoppt die laufende Anfrage. Die Prozentzahl ist eine Schätzung: In der Denkphase sendet die KI noch keinen Text, dort steigt der Balken nach Zeit; sobald Text kommt, nach der erwarteten Länge.
+   Die Antworten kommen als Datenstrom. Es gibt kein festes Zeitlimit mehr, nur einen Abbruch, wenn der Anbieter 90 Sekunden lang gar nichts sendet (Obergrenze 10 Minuten). Bei Überlastung (Fehler 429, 500, 503, 529) oder abgerissener Verbindung versucht die Seite es bis zu zweimal neu. Konzept, Nachbesserung und Lektorat laufen mit mittlerem Denkaufwand, nur das Schreiben mit hohem.
+   **Wenn die KI trotz Schlüssel nicht geht:** „Verbindung testen“ in den KI-Einstellungen zeigt den genauen Grund. Häufig: Schlüssel und Anbieter passen nicht zusammen (die Seite erkennt `sk-ant-…` = Anthropic, `sk-…` = OpenAI, `AIza…` = Google Gemini und stellt um), falscher Modellname (404), kein Guthaben oder Ausgabenlimit erreicht (400/403), oder der Schlüssel wurde ohne „Schlüssel merken“ eingetragen und ist nach dem Neuladen weg.
+8. Ohne KI: „Reimgerüst ohne KI“ baut aus den Endwörtern (oder Substantiven aus dem Briefing) je Reimgruppe passende Zeilenenden aus dem Lexikon. Die Zeilen davor schreibst du selbst, die Prüfung läuft genauso.
+
+## Lexikon selbst bauen
+
+1. Wiktionary-Auszug für Deutsch von https://kaikki.org/dictionary/German/ herunterladen (JSONL-Datei mit allen Einträgen, mehrere hundert MB; der genaue Dateiname steht auf der Seite). Optional zusätzlich `de.txt` aus https://github.com/open-dict-data/ipa-dict (Ordner `data`) und eine Häufigkeitsliste wie `de_50k.txt` aus https://github.com/hermitdave/FrequencyWords (`content/2018/de`).
+2. Das Skript neben `reimfinder.html` legen (es liest den Reim-Kern direkt aus der HTML-Datei, damit Seite und Lexikon garantiert gleich normalisieren).
+3. Starten:
+   ```
+   node build_lexikon.mjs --kaikki kaikki.org-dictionary-German.jsonl --ipadict de.txt --freq de_50k.txt --out lexikon-de.json.gz
+   ```
+   Jede Quelle ist einzeln nutzbar. `--max 200000` begrenzt auf die häufigsten Wörter, `--ohne-bindestrich` lässt Bindestrich-Wörter weg.
+4. Ergebnis: Aus ipa-dict allein entstehen rund 700.000 Wörter in 8 MB (gzip), Laufzeit etwa 25 Sekunden. Mit kaikki kommen Wortarten und Flexions-Markierungen hinzu; rechne mit etwa 8 bis 15 MB.
+
+Die Seite nimmt auch direkt `de.txt` aus ipa-dict oder kleine kaikki-JSONL-Dateien an, das Laden dauert dann aber länger (ipa-dict: rund 11 Sekunden), weil die Reimschlüssel erst im Browser berechnet werden.
+
+## Ehrliche Grenzen
+
+- **Kein vollständiger Duden.** Der Wortschatz ist so gut wie Wiktionary: sehr viele Wörter und Flexionsformen, aber Lücken bei seltenen Wörtern, neuen Wörtern und vielen Komposita. Einige Einträge sind fehlerhaft oder ungewöhnlich (Eigennamen, Abkürzungen, Tippfehler aus der Quelle).
+- **Wortarten und Flexionsformen** sind im mitgelieferten Lexikon nur geschätzt (ipa-dict hat keine Wortarten). Großschreibung gilt als Substantiv, Endungen wie -en als Verb. Mit dem kaikki-Auszug werden beide deutlich genauer. Der Filter „Flexionsformen zeigen“ ist deshalb nur so gut wie diese Markierung.
+- **Geschätzte Aussprache.** Die Regeln treffen den Reimteil der letzten Silbe bei rund 93 % der Wörter (gemessen an 5.300 zufälligen Lexikonwörtern). Schwächer sind sie bei der Betonung, vor allem bei Fremdwörtern und Komposita, die nicht in bekannte Teile zerlegt werden können. Solche Ergebnisse sind als „geschätzt“ markiert und lassen sich von Hand korrigieren.
+- **Komposita.** Unbekannte Komposita werden in bekannte Teile zerlegt (rechter Teil bestimmt den Reim). Das klappt oft, aber nicht immer an der richtigen Stelle.
+- **Fremdwörter** (englisch, französisch) folgen anderen Regeln; die Schätzung liegt hier oft daneben, das Lexikon meist nicht.
+- **Regionale Aussprache.** Das Lexikon bildet Standarddeutsch ab, teils mit Varianten (z. B. *Rad* mit kurzem und langem a). Die Suche nutzt standardmäßig alle Varianten; du kannst eine auswählen. Süddeutsche, österreichische oder schweizerische Aussprache ist nur abgedeckt, wo Wiktionary sie aufführt.
+- **Unreiner Reim und Score** beruhen auf einer vereinfachten Merkmalstabelle (Zungenhöhe, -lage, Rundung, Länge, Artikulationsort, -art, Stimmhaftigkeit). Der Score ist eine nachvollziehbare Faustregel, kein Urteil über Reimqualität. *Häuser/Kreuzer* landet z. B. bei 77 („unrein“), weil [z] und [ts] verschieden sind.
+- **Wortkombinationen** werden mechanisch aus rund 12.000 häufigen Wörtern zusammengesetzt und mit einfachen Grammatikregeln sortiert. Viele sind lautlich passend, aber grammatisch schief oder sinnlos („Schmerz ist ward“, „von ein Strand“). Sie sind als Ideenliste gedacht; natürlich klingende Wortgruppen liefert eher die KI-Option. Nicht jede gute Kombination erscheint in der Liste (z. B. fehlt *wer ist stark* dort), deshalb gibt es das Prüffeld.
+- **Silbe für Silbe** ist großzügiger als der klassische Reim: Treffer müssen in jeder Silbe einen ähnlichen Vokal haben, die Konsonanten dürfen abweichen. Wer nur strenge Reime will, stellt „rein“ ein.
+- **Text-Werkstatt.** Ganze sinnvolle Zeilen schreibt nur die KI; ohne Schlüssel gibt es nur das Reimgerüst. Die lokale Prüfung zählt Silben nach der Aussprache und vergleicht im Rap-Sinn streng (auch Schwa zählt: *rot-weiß* reimt nicht auf *kleinen Preis*). Englische Wörter wie *Shake* oder *Nuggets* sind oft geschätzt (Kennzeichnung „≈ geschätzt“). Betonung und Flow innerhalb der Zeile prüft die Seite nicht, nur die Silbenmenge pro Takt. Die KI hält die Vorgaben nicht immer ein; was offen bleibt, ist markiert.
+- **Kunstwörter** (z. B. *Weiterkeit*) entstehen nur, wenn der Reim das ganze Wort umfasst, und sind standardmäßig aus.
+- **KI-Nutzung kostet Geld** beim jeweiligen Anbieter (pro Suche eine Anfrage). Suchwort, Aussprache und bis zu 40 lokale Treffer werden dorthin übertragen. Der Schlüssel liegt im Browser und ist für jeden mit Zugriff auf diesen Rechner sichtbar; am besten einen eigenen Schlüssel mit Ausgabenlimit nutzen. Die KI kann Wörter erfinden: Ihre Vorschläge werden lokal lautlich geprüft, aber ob ein Wort wirklich existiert, kann die Seite nur bei Wörtern im Lexikon sicher sagen (Kennzeichnung „Reim geprüft, Wort nicht im Lexikon“).
+- **Speicher.** Das große Lexikon braucht im Browser rund 350 MB Arbeitsspeicher. Auf älteren Handys kann das knapp werden; dann hilft `--max 200000` beim Bauen.
+
+## Lizenz der Daten
+
+Die Lautschrift stammt von Wiktionary-Beitragenden (über german-ipa-dict / ipa-dict bzw. kaikki.org) und steht unter CC BY-SA. Die Häufigkeiten stammen aus FrequencyWords (CC BY-SA 4.0). Wer `lexikon-de.json.gz` weitergibt, muss diese Quellen nennen und die Lizenz beibehalten.
