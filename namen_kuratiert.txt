@@ -1,0 +1,547 @@
+# Name | Beschreibung | Sprache der Aussprache (de Standard, en englisch, fr, es, nl)
+# Deutschrap
+Kool Savas|Rapper
+Bushido|Rapper
+Sido|Rapper
+Fler|Rapper
+Haftbefehl|Rapper
+Capital Bra|Rapper
+Samra|Rapper
+Apache 207|Rapper
+Luciano|Rapper
+Gzuz|Rapper
+Bonez MC|Rapper
+RAF Camora|Rapper
+Ufo361|Rapper
+Shindy|Rapper
+Kollegah|Rapper
+Farid Bang|Rapper
+Cro|Rapper
+Marteria|Rapper
+Casper|Rapper
+Kontra K|Rapper
+Summer Cem|Rapper
+KC Rebell|Rapper
+Xatar|Rapper
+Eko Fresh|Rapper
+Massiv|Rapper
+Azad|Rapper
+Moses Pelham|Rapper und Produzent
+Samy Deluxe|Rapper
+Jan Delay|Sänger und Rapper
+Max Herre|Rapper und Sänger
+Megaloh|Rapper
+Prinz Pi|Rapper
+Alligatoah|Rapper
+Trettmann|Rapper und Sänger
+Nimo|Rapper
+Veysel|Rapper
+Loredana|Rapperin
+Shirin David|Rapperin
+Juju|Rapperin
+Nura|Rapperin
+Badmómzjay|Rapperin
+Katja Krasavice|Rapperin und Influencerin
+Ski Aggu|Rapper
+Pashanim|Rapper
+Makko|Rapper
+Nina Chuba|Sängerin und Rapperin
+Paula Hartmann|Sängerin
+Bausa|Rapper und Sänger
+MoTrip|Rapper
+Kay One|Rapper
+Mero|Rapper
+Olexesh|Rapper
+Haiyti|Rapperin
+Yung Hurn|Rapper
+Money Boy|Rapper
+Dardan|Rapper
+Reezy|Rapper
+SSIO|Rapper
+Chakuza|Rapper
+Bozza|Rapper
+Ali As|Rapper
+Disarstar|Rapper
+Antifuchs|Rapperin
+Sookee|Rapperin
+Kitty Kat|Rapperin
+Edgar Wasser|Rapper
+Danger Dan|Rapper
+Gentleman|Reggae-Sänger
+Peter Fox|Sänger
+Rin|Rapper
+Kalazh44|Rapper
+Jalil|Rapper
+Majan|Rapper
+Sierra Kidd|Rapper
+Fard|Rapper
+Celo|Rapper
+Abdi|Rapper
+Mosh36|Rapper
+Manuellsen|Rapper
+Kurdo|Rapper
+Animus|Rapper
+Pa Sports|Rapper
+Hanybal|Rapper
+# Bands
+Rammstein|Band
+Die Toten Hosen|Band
+Die Ärzte|Band
+Tokio Hotel|Band
+Scooter|Band
+Kraftwerk|Band
+Fettes Brot|Hip-Hop-Band
+Die Fantastischen Vier|Hip-Hop-Band
+Beginner|Hip-Hop-Band
+Seeed|Band
+Deichkind|Band
+Revolverheld|Band
+Silbermond|Band
+Juli|Band
+Wir sind Helden|Band
+Kraftklub|Band
+AnnenMayKantereit|Band
+Böhse Onkelz|Band
+Sportfreunde Stiller|Band
+Rosenstolz|Band
+Höhner|Band
+Kasalla|Band
+Brings|Band
+BAP|Band
+Pur|Band
+Unheilig|Band
+Santiano|Band
+Frei.Wild|Band
+Element of Crime|Band
+Tocotronic|Band
+Wanda|Band
+Bilderbuch|Band
+# Pop, Schlager, Liedermacher
+Helene Fischer|Schlagersängerin
+Andrea Berg|Schlagersängerin
+Roland Kaiser|Schlagersänger
+Florian Silbereisen|Moderator und Schlagersänger
+Dieter Bohlen|Musikproduzent
+Thomas Anders|Sänger
+Nena|Sängerin
+Herbert Grönemeyer|Sänger
+Udo Lindenberg|Sänger
+Peter Maffay|Sänger
+Marius Müller-Westernhagen|Sänger
+Xavier Naidoo|Sänger
+Sarah Connor|Sängerin
+Lena Meyer-Landrut|Sängerin
+Mark Forster|Sänger
+Max Giesinger|Sänger
+Wincent Weiss|Sänger
+Tim Bendzko|Sänger
+Andreas Bourani|Sänger
+Johannes Oerding|Sänger
+Adel Tawil|Sänger
+Clueso|Sänger
+Philipp Poisel|Sänger
+Vanessa Mai|Sängerin
+Beatrice Egli|Schlagersängerin
+Howard Carpendale|Schlagersänger
+Heino|Schlagersänger
+Matthias Reim|Schlagersänger
+Wolfgang Petry|Schlagersänger
+Jürgen Drews|Schlagersänger
+DJ Ötzi|Sänger
+Andreas Gabalier|Sänger
+Michael Wendler|Schlagersänger
+Mickie Krause|Partysänger
+Ikke Hüftgold|Partysänger
+Yvonne Catterfeld|Sängerin und Schauspielerin
+Jeanette Biedermann|Sängerin
+Sasha|Sänger
+Rea Garvey|Sänger
+Joris|Sänger
+Namika|Sängerin
+Kerstin Ott|Sängerin
+Felix Jaehn|DJ
+Robin Schulz|DJ
+Paul Kalkbrenner|DJ
+Zoe Wees|Sängerin
+Ayliva|Sängerin
+Nina Hagen|Sängerin
+Falco|Sänger
+Udo Jürgens|Sänger
+Reinhard Mey|Liedermacher
+Konstantin Wecker|Liedermacher
+Rio Reiser|Sänger
+Farin Urlaub|Musiker
+Bela B|Musiker
+Campino|Sänger
+Bill Kaulitz|Sänger
+Tom Kaulitz|Musiker
+Sarah Lombardi|Sängerin
+Pietro Lombardi|Sänger
+Giovanni Zarrella|Sänger und Moderator
+Ross Antony|Sänger
+Stefan Mross|Moderator und Musiker
+Semino Rossi|Schlagersänger
+Lea|Sängerin
+Alice Merton|Sängerin
+Leony|Sängerin
+Michael Schulte|Sänger
+Lotte|Sängerin
+Provinz|Band
+Revolverheld|Band
+Matthias Schweighöfer|Schauspieler
+# Fußball und Sport
+Thomas Müller|Fußballspieler
+Manuel Neuer|Fußballtorwart
+Toni Kroos|Fußballspieler
+Joshua Kimmich|Fußballspieler
+Leon Goretzka|Fußballspieler
+Jamal Musiala|Fußballspieler
+Florian Wirtz|Fußballspieler
+Kai Havertz|Fußballspieler
+Leroy Sané|Fußballspieler
+Serge Gnabry|Fußballspieler
+İlkay Gündoğan|Fußballspieler
+Marco Reus|Fußballspieler
+Mats Hummels|Fußballspieler
+Mesut Özil|Fußballspieler
+Bastian Schweinsteiger|Fußballspieler
+Philipp Lahm|Fußballspieler
+Lukas Podolski|Fußballspieler
+Miroslav Klose|Fußballspieler
+Michael Ballack|Fußballspieler
+Oliver Kahn|Fußballtorwart
+Jens Lehmann|Fußballtorwart
+Per Mertesacker|Fußballspieler
+Mario Götze|Fußballspieler
+Julian Nagelsmann|Fußballtrainer
+Hansi Flick|Fußballtrainer
+Thomas Tuchel|Fußballtrainer
+Jürgen Klopp|Fußballtrainer
+Uli Hoeneß|Fußballfunktionär
+Karl-Heinz Rummenigge|Fußballspieler
+Rudi Völler|Fußballspieler
+Jürgen Klinsmann|Fußballspieler
+Oliver Bierhoff|Fußballspieler
+Niclas Füllkrug|Fußballspieler
+Antonio Rüdiger|Fußballspieler
+Marc-André ter Stegen|Fußballtorwart
+Erling Haaland|Fußballspieler
+Robert Lewandowski|Fußballspieler
+Harry Kane|Fußballspieler|en
+Kylian Mbappé|Fußballspieler|fr
+Cristiano Ronaldo|Fußballspieler
+Lionel Messi|Fußballspieler
+Neymar|Fußballspieler
+Mohamed Salah|Fußballspieler
+Zlatan Ibrahimović|Fußballspieler
+Dirk Nowitzki|Basketballspieler
+Dennis Schröder|Basketballspieler
+Franz Wagner|Basketballspieler
+Boris Becker|Tennisspieler
+Steffi Graf|Tennisspielerin
+Alexander Zverev|Tennisspieler
+Angelique Kerber|Tennisspielerin
+Sebastian Vettel|Rennfahrer
+Nico Rosberg|Rennfahrer
+Mick Schumacher|Rennfahrer
+Ralf Schumacher|Rennfahrer
+Max Verstappen|Rennfahrer
+Lewis Hamilton|Rennfahrer|en
+Wladimir Klitschko|Boxer
+Vitali Klitschko|Boxer und Politiker
+Henry Maske|Boxer
+Axel Schulz|Boxer
+Regina Halmich|Boxerin
+Magdalena Neuner|Biathletin
+Felix Neureuther|Skirennläufer
+Sven Hannawald|Skispringer
+Usain Bolt|Sprinter|en
+Michael Phelps|Schwimmer|en
+Mike Tyson|Boxer|en
+Rafael Nadal|Tennisspieler|es
+Novak Djokovic|Tennisspieler
+Serena Williams|Tennisspielerin|en
+LeBron James|Basketballspieler|en
+Michael Jordan|Basketballspieler|en
+Kobe Bryant|Basketballspieler|en
+Tom Brady|Football-Spieler|en
+Conor McGregor|Kampfsportler|en
+Tyson Fury|Boxer|en
+# Fernsehen und Comedy
+Stefan Raab|Moderator und Entertainer
+Thomas Gottschalk|Moderator
+Günther Jauch|Moderator
+Hape Kerkeling|Komiker
+Otto Waalkes|Komiker
+Michael Bully Herbig|Komiker und Regisseur
+Joko Winterscheidt|Moderator
+Klaas Heufer-Umlauf|Moderator
+Jan Böhmermann|Satiriker und Moderator
+Oliver Welke|Moderator
+Barbara Schöneberger|Moderatorin
+Heidi Klum|Model und Moderatorin
+Daniela Katzenberger|Fernsehpersönlichkeit
+Harald Schmidt|Entertainer
+Kurt Krömer|Komiker
+Mario Barth|Komiker
+Atze Schröder|Komiker
+Bülent Ceylan|Komiker
+Kaya Yanar|Komiker
+Luke Mockridge|Komiker
+Carolin Kebekus|Komikerin
+Anke Engelke|Komikerin
+Bastian Pastewka|Komiker und Schauspieler
+Christoph Maria Herbst|Schauspieler
+Olaf Schubert|Komiker
+Helge Schneider|Musiker und Komiker
+Dieter Nuhr|Kabarettist
+Dieter Hallervorden|Komiker und Schauspieler
+Loriot|Humorist
+Hella von Sinnen|Komikerin
+Hugo Egon Balder|Moderator
+Markus Lanz|Moderator
+Sandra Maischberger|Moderatorin
+Anne Will|Moderatorin
+Frank Plasberg|Moderator
+Johannes B. Kerner|Moderator
+Kai Pflaume|Moderator
+Jörg Pilawa|Moderator
+Frank Elstner|Moderator
+Rudi Carrell|Entertainer
+Hans Rosenthal|Moderator
+Ulrich Wickert|Journalist
+Tim Mälzer|Koch
+Johann Lafer|Koch
+Horst Lichter|Koch und Moderator
+Steffen Henssler|Koch
+Frank Rosin|Koch
+Tim Raue|Koch
+Ralf Schmitz|Komiker
+Oliver Pocher|Komiker
+Sonja Zietlow|Moderatorin
+Daniel Hartwich|Moderator
+Detlef Soost|Tänzer
+Bruce Darnell|Model und Juror|en
+Guido Maria Kretschmer|Modedesigner
+Sylvie Meis|Moderatorin
+Verona Pooth|Fernsehpersönlichkeit
+Jenny Elvers|Schauspielerin
+Désirée Nick|Entertainerin
+Ilka Bessin|Komikerin
+Elton|Moderator
+Matze Knop|Komiker
+Torsten Sträter|Kabarettist
+Hazel Brugger|Komikerin
+Felix Lobrecht|Komiker
+Chris Tall|Komiker
+Faisal Kawusi|Komiker
+Enissa Amani|Komikerin
+Michael Mittermeier|Komiker
+Mirja Boes|Komikerin
+Cindy aus Marzahn|Komikerin
+# Schauspiel
+Til Schweiger|Schauspieler
+Elyas M'Barek|Schauspieler
+Moritz Bleibtreu|Schauspieler
+Daniel Brühl|Schauspieler
+Diane Kruger|Schauspielerin
+Nora Tschirner|Schauspielerin
+Jürgen Vogel|Schauspieler
+Heiner Lauterbach|Schauspieler
+Veronica Ferres|Schauspielerin
+Iris Berben|Schauspielerin
+Hannelore Elsner|Schauspielerin
+Götz George|Schauspieler
+Manfred Krug|Schauspieler
+Armin Rohde|Schauspieler
+Axel Prahl|Schauspieler
+Jan Josef Liefers|Schauspieler
+Ulrich Tukur|Schauspieler
+August Diehl|Schauspieler
+Sandra Hüller|Schauspielerin
+Karoline Herfurth|Schauspielerin
+Jella Haase|Schauspielerin
+Florian David Fitz|Schauspieler
+Tom Schilling|Schauspieler
+Lars Eidinger|Schauspieler
+Franka Potente|Schauspielerin
+Mario Adorf|Schauspieler
+Bruno Ganz|Schauspieler
+Gert Fröbe|Schauspieler
+Horst Tappert|Schauspieler
+Uschi Glas|Schauspielerin
+Senta Berger|Schauspielerin
+Romy Schneider|Schauspielerin
+Hildegard Knef|Schauspielerin und Sängerin
+Wotan Wilke Möhring|Schauspieler
+Frederick Lau|Schauspieler
+Kostja Ullmann|Schauspieler
+Alexandra Maria Lara|Schauspielerin
+Heike Makatsch|Schauspielerin
+Katja Riemann|Schauspielerin
+Martina Gedeck|Schauspielerin
+Leonardo DiCaprio|Schauspieler|en
+Brad Pitt|Schauspieler|en
+Tom Cruise|Schauspieler|en
+Johnny Depp|Schauspieler|en
+Will Smith|Schauspieler und Rapper|en
+Keanu Reeves|Schauspieler|en
+Angelina Jolie|Schauspielerin|en
+Scarlett Johansson|Schauspielerin|en
+Margot Robbie|Schauspielerin|en
+Ryan Gosling|Schauspieler|en
+Dwayne Johnson|Schauspieler|en
+Vin Diesel|Schauspieler|en
+Jason Statham|Schauspieler|en
+Denzel Washington|Schauspieler|en
+Tom Hanks|Schauspieler|en
+Jennifer Lawrence|Schauspielerin|en
+Zendaya|Schauspielerin|en
+Timothée Chalamet|Schauspieler|en
+Pedro Pascal|Schauspieler|es
+Chris Hemsworth|Schauspieler|en
+Robert Pattinson|Schauspieler|en
+Cillian Murphy|Schauspieler|en
+Jennifer Aniston|Schauspielerin|en
+Nicolas Cage|Schauspieler|en
+Samuel L. Jackson|Schauspieler|en
+Morgan Freeman|Schauspieler|en
+Jackie Chan|Schauspieler|en
+# Politik und Wirtschaft
+Olaf Scholz|Politiker
+Friedrich Merz|Politiker
+Robert Habeck|Politiker
+Annalena Baerbock|Politikerin
+Christian Lindner|Politiker
+Markus Söder|Politiker
+Sahra Wagenknecht|Politikerin
+Alice Weidel|Politikerin
+Boris Pistorius|Politiker
+Karl Lauterbach|Politiker
+Gregor Gysi|Politiker
+Helmut Kohl|Bundeskanzler
+Helmut Schmidt|Bundeskanzler
+Willy Brandt|Bundeskanzler
+Gerhard Schröder|Bundeskanzler
+Konrad Adenauer|Bundeskanzler
+Joschka Fischer|Politiker
+Wolfgang Schäuble|Politiker
+Hubertus Heil|Politiker
+Nancy Faeser|Politikerin
+Cem Özdemir|Politiker
+Armin Laschet|Politiker
+Ursula von der Leyen|Politikerin
+Hans-Dietrich Genscher|Politiker
+Franz Josef Strauß|Politiker
+Horst Seehofer|Politiker
+Edmund Stoiber|Politiker
+Peer Steinbrück|Politiker
+Martin Schulz|Politiker
+Kevin Kühnert|Politiker
+Ricarda Lang|Politikerin
+Lars Klingbeil|Politiker
+Jens Spahn|Politiker
+Hendrik Wüst|Politiker
+Bodo Ramelow|Politiker
+Manuela Schwesig|Politikerin
+Wolodymyr Selenskyj|Präsident der Ukraine
+Emmanuel Macron|Präsident Frankreichs|fr
+Joe Biden|US-Präsident|en
+Barack Obama|US-Präsident|en
+Kamala Harris|US-Politikerin|en
+Elon Musk|Unternehmer|en
+Mark Zuckerberg|Unternehmer|en
+Jeff Bezos|Unternehmer|en
+Steve Jobs|Unternehmer|en
+Greta Thunberg|Klimaaktivistin
+Luisa Neubauer|Klimaaktivistin
+# Internet
+Gronkh|Webvideoproduzent
+LeFloid|Webvideoproduzent
+Rezo|Webvideoproduzent
+Julien Bam|Webvideoproduzent
+Dagi Bee|Influencerin
+Pamela Reif|Influencerin
+Montana Black|Streamer
+Knossi|Streamer
+Papaplatte|Streamer
+Trymacs|Streamer
+Unge|Webvideoproduzent
+Paluten|Webvideoproduzent
+Simon Desue|Webvideoproduzent
+Bianca Heinicke|Influencerin
+Twenty4tim|Influencer
+Rewi|Webvideoproduzent
+HandOfBlood|Streamer
+Kelly Svirakova|Influencerin
+MrBeast|Webvideoproduzent|en
+PewDiePie|Webvideoproduzent|en
+# Internationale Musik
+Taylor Swift|Sängerin|en
+Beyoncé|Sängerin|en
+Rihanna|Sängerin|en
+Drake|Rapper|en
+Eminem|Rapper|en
+Kanye West|Rapper|en
+Jay-Z|Rapper|en
+Snoop Dogg|Rapper|en
+50 Cent|Rapper|en
+Dr. Dre|Rapper und Produzent|en
+Tupac Shakur|Rapper|en
+Biggie Smalls|Rapper|en
+Kendrick Lamar|Rapper|en
+Travis Scott|Rapper|en
+Billie Eilish|Sängerin|en
+Ed Sheeran|Sänger|en
+Adele|Sängerin|en
+Lady Gaga|Sängerin|en
+Bruno Mars|Sänger|en
+Justin Bieber|Sänger|en
+Ariana Grande|Sängerin|en
+Dua Lipa|Sängerin|en
+The Weeknd|Sänger|en
+Post Malone|Rapper und Sänger|en
+Bad Bunny|Rapper|es
+Shakira|Sängerin|es
+Michael Jackson|Sänger|en
+Whitney Houston|Sängerin|en
+Elvis Presley|Sänger|en
+Freddie Mercury|Sänger|en
+David Bowie|Sänger|en
+Madonna|Sängerin|en
+Britney Spears|Sängerin|en
+Harry Styles|Sänger|en
+Miley Cyrus|Sängerin|en
+Selena Gomez|Sängerin|en
+Katy Perry|Sängerin|en
+Nicki Minaj|Rapperin|en
+Cardi B|Rapperin|en
+Doja Cat|Rapperin|en
+Lil Wayne|Rapper|en
+Pharrell Williams|Musiker|en
+Bob Marley|Reggae-Musiker|en
+Stromae|Sänger|fr
+Aya Nakamura|Sängerin|fr
+Ice Cube|Rapper|en
+Ice-T|Rapper|en
+Nas|Rapper|en
+Lil Nas X|Rapper|en
+Megan Thee Stallion|Rapperin|en
+Future|Rapper|en
+Lil Baby|Rapper|en
+21 Savage|Rapper|en
+Kid Cudi|Rapper|en
+Mac Miller|Rapper|en
+Juice Wrld|Rapper|en
+XXXTentacion|Rapper|en
+Childish Gambino|Rapper|en
+Frank Ocean|Sänger|en
+SZA|Sängerin|en
+Sabrina Carpenter|Sängerin|en
+Olivia Rodrigo|Sängerin|en
+Coldplay|Band|en
+Metallica|Band|en
+Nirvana|Band|en
+Queen|Band|en
+The Beatles|Band|en
+ABBA|Band

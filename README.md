@@ -8,6 +8,7 @@ Deutsche Reime nach Lauten, nicht nach Buchstaben, dazu eine Text-Werkstatt für
 - `lexikon-de.json.gz`: voller Wortschatz (rund 704.000 Wörter mit Lautschrift). Online unter „Lexikon laden“ → „oder per URL“ → „Laden“; danach bleibt er im Browser gespeichert.
 - `LIESMICH.md`: ausführliche Anleitung.
 - `build_lexikon.mjs`: baut das Lexikon neu.
+- `namen_kuratiert.txt`: handverlesene Namen für die Gruppe „Berühmte Namen“ (weitere stammen aus Pantheon 2.0).
 - `stilanalyse/`: Stilanalyse von 50 Rappern (8 Stil-Archetypen), Grundlage der Stil-Auswahl.
 
 Ein API-Schlüssel für die KI wird nur im eigenen Browser gehalten und nie in dieses Repository geschrieben.
