@@ -1,6 +1,7 @@
 // Baut out/extra.json.gz: Orte (GeoNames + Liste), Vornamen (Stadt Köln), Redewendungen + Synonyme (OpenThesaurus)
 import fs from "node:fs"; import zlib from "node:zlib";
 import { IPA, G2P } from "./core.mjs";
+import { EN_TEXT } from "./english.mjs";
 const SP = "/tmp/claude-0/-home-user/7ca5be93-23ec-59fa-9399-b1e168aa0294/scratchpad";
 const DL = "/tmp/claude-0/-home-user-reimlexikon-/7ca5be93-23ec-59fa-9399-b1e168aa0294/scratchpad/dl2";
 const L = JSON.parse(zlib.gunzipSync(fs.readFileSync(SP + "/out/lexikon-de.json.gz")).toString("utf8"));
@@ -102,6 +103,6 @@ const all = [...rows.values()];
 console.log({ orte: nOrte, liste: LISTE.length, vornamen: nVn, redewendungen: nRw, thes: thes.length, rows: all.length });
 for (const k of ["orte", "vornamen", "redewendungen"]) console.log(k, all.filter((r) => r[6] === k).slice(0, 12).map((r) => r[0] + " " + r[1] + " [" + r[2] + "]").join("\n  "));
 const rnd = all.filter((r) => r[6] === "redewendungen"); for (let i = 0; i < 25; i++) console.log("  ~", rnd[(i * 977) % rnd.length].slice(0, 3).join(" | "));
-const json = JSON.stringify({ quellen: "GeoNames (CC BY 4.0), Stadt Köln Vornamen (CC BY 3.0), OpenThesaurus (LGPL)", rows: all, thes: thes.join("\n") });
+const json = JSON.stringify({ quellen: "GeoNames (CC BY 4.0), Stadt Köln Vornamen (CC BY 3.0), OpenThesaurus (LGPL)", rows: all, thes: thes.join("\n"), en: EN_TEXT });
 fs.writeFileSync(SP + "/out/extra.json.gz", zlib.gzipSync(json, { level: 9 }));
 console.log("json", json.length, "gz", fs.statSync(SP + "/out/extra.json.gz").size);
